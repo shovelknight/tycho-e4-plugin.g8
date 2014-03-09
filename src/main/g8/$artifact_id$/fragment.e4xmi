@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_BDKgIKbNEeO6mKsLY80RTg">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_D3PKQKbNEeO6mKsLY80RTg" featurename="children" parentElementId="$parent_id$.core.stack">
+    <elements xsi:type="basic:Part" xmi:id="_R2iKIKbiEeOCIsqDkW4_Xw" elementId="$artifact_id$.part.0" containerData="1000" contributionURI="bundleclass://$artifact_id$/$package$.$plugin_id;format="Camel"$" label="$plugin_id$"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_-c5u0KeYEeOgSoLvF1_zZQ" featurename="commands" parentElementId="org.eclipse.e4.ide.application">
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_RumpAKeZEeOgSoLvF1_zZQ" featurename="handlers" parentElementId="org.eclipse.e4.ide.application">
+  </fragments>
+</fragment:ModelFragments>

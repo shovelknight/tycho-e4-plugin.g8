@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: $artifact_id$ Test
+Bundle-SymbolicName: $artifact_id$.test
+Bundle-Version: $version$.qualifier
+Fragment-Host: $artifact_id$;bundle-version="$version$"
+Bundle-RequiredExecutionEnvironment: JavaSE-$java_version$
+Require-Bundle: org.junit
