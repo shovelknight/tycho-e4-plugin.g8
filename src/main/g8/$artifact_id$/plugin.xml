@@ -1,19 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?eclipse version="3.4"?>
 <plugin>
-   <extension
-         id="modelContribution"
-         point="org.eclipse.e4.workbench.model">
-     <fragment
-         uri="fragment.e4xmi">
-     </fragment>
-     <processor
-         beforefragment="false"
-         class="$package$.processors.ExitMenuProcessor">
-         <element
-             id="org.eclipse.ui.file.menu">
-         </element>
-     </processor>
-   </extension>
+    <extension
+        id="modelContribution"
+        point="org.eclipse.e4.workbench.model">
+        <fragment
+            uri="fragment.e4xmi">
+        </fragment>
+    </extension>
+    
+    <extension
+        point="org.eclipse.help.toc">
+        <toc
+            file="toc.xml"
+            primary="true">
+        </toc>
+        <toc
+            file="tocconcepts.xml">
+        </toc>
+        <toc
+            file="tocgettingstarted.xml">
+        </toc>
+        <toc
+            file="tocreference.xml">
+        </toc>
+        <toc
+            file="tocsamples.xml">
+        </toc>
+        <toc
+            file="toctasks.xml">
+        </toc>
+    </extension>
 
 </plugin>
