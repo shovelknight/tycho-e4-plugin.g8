@@ -1,4 +1,4 @@
-package $package$;
+package $package$.parts;
 
 import javax.annotation.PostConstruct;
 
