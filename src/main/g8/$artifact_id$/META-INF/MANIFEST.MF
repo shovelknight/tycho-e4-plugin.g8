@@ -5,12 +5,31 @@ Bundle-SymbolicName: $artifact_id$;singleton:=true
 Bundle-Version: $version$.qualifier
 Bundle-RequiredExecutionEnvironment: JavaSE-$java_version$
 Require-Bundle: org.eclipse.swt;bundle-version="3.102.1",
+ javax.inject;bundle-version="1.0.0",
+ org.eclipse.core.runtime;bundle-version="3.9.100",
  org.eclipse.e4.core.di;bundle-version="1.3.0",
  org.eclipse.e4.ui.workbench;bundle-version="1.0.2",
- javax.inject;bundle-version="1.0.0",
  org.eclipse.e4.ui.di;bundle-version="1.0.0",
  org.eclipse.e4.ui.model.workbench;bundle-version="1.0.1",
  org.eclipse.e4.core.contexts;bundle-version="1.3.1",
  org.eclipse.e4.ui.services;bundle-version="1.0.1",
- org.eclipse.jface;bundle-version="3.9.1"
+ org.eclipse.jface;bundle-version="3.9.1",
+ org.eclipse.equinox.p2.core;bundle-version="2.3.0",
+ org.eclipse.equinox.p2.engine;bundle-version="2.3.0",
+ org.eclipse.equinox.p2.operations;bundle-version="2.3.0",
+ org.eclipse.equinox.p2.metadata.repository;bundle-version="1.2.100",
+ org.eclipse.equinox.p2.ui;bundle-version="2.3.0",
+ org.eclipse.equinox.p2.ui.discovery;bundle-version="1.0.0",
+ org.eclipse.equinox.p2.ui.sdk;bundle-version="1.0.300",
+ org.eclipse.equinox.p2.updatechecker;bundle-version="1.1.200",
+ org.eclipse.equinox.p2.repository,
+ org.eclipse.equinox.p2.metadata;bundle-version="2.2.0",
+ org.eclipse.equinox.p2.transport.ecf;bundle-version="1.1.0",
+ org.eclipse.equinox.p2.touchpoint.eclipse;bundle-version="2.1.200",
+ org.eclipse.equinox.p2.touchpoint.natives;bundle-version="1.1.100",
+ org.eclipse.ecf;bundle-version="3.2.0",
+ org.eclipse.ecf.filetransfer;bundle-version="5.0.0",
+ org.eclipse.ecf.provider.filetransfer;bundle-version="3.2.0",
+ org.eclipse.ecf.provider.filetransfer.httpclient4;bundle-version="1.0.300",
+ org.eclipse.ui.workbench
 Import-Package: javax.annotation;version="1.0.0"

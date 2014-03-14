@@ -10,9 +10,6 @@
      <processor
          beforefragment="false"
          class="$package$.processors.ExitMenuProcessor">
-         <element
-             id="org.eclipse.ui.file.menu">
-         </element>
      </processor>
    </extension>
 
