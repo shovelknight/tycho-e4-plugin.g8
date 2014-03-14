@@ -1,4 +1,4 @@
-package my.organization.sample.myplugin.handlers;
+package $package$.handlers;
 
 import java.net.URI;
 import java.net.URISyntaxException;

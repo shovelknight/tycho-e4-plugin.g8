@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_BDKgIKbNEeO6mKsLY80RTg">
     <fragments xsi:type="fragment:StringModelFragment" xmi:id="_D3PKQKbNEeO6mKsLY80RTg" featurename="children" parentElementId="org.eclipse.ui.main.partstack">
-        <elements xsi:type="basic:Part" xmi:id="_R2iKIKbiEeOCIsqDkW4_Xw" elementId="$artifact_id$.part.0" containerData="1000" contributionURI="bundleclass://$artifact_id$/$package$.parts.$plugin_id;format="Camel"$" label="$plugin_id$"/>
     </fragments>
     <fragments xsi:type="fragment:StringModelFragment" xmi:id="_-c5u0KeYEeOgSoLvF1_zZQ" featurename="commands" parentElementId="org.eclipse.e4.ide.application">
         <elements xsi:type="commands:Command" xmi:id="_4Yjv8KnLEeOdQIIotOfwPg" elementId="org.eclipse.ui.checkupdate.command" commandName="checkupdate">
