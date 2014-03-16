@@ -9,4 +9,5 @@
   </parent>
   <artifactId>$artifact_id$</artifactId>
   <packaging>eclipse-plugin</packaging>
+  <version>$version$-SNAPSHOT</version>
 </project>
