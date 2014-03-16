@@ -2,7 +2,7 @@ package $package$.parts;
 
 import javax.annotation.PostConstruct;
 
-import my.organization.sample.birt.widgets.ChartViewer;
+import $package$.widgets.ChartViewer;
 
 import org.eclipse.birt.chart.model.Chart;
 import org.eclipse.birt.chart.model.ChartWithAxes;
